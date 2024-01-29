@@ -1,4 +1,5 @@
 // average number
+
 var number1=32;
 var number2=52;
 var number3=82;
@@ -10,6 +11,7 @@ var sumNum=numbers[0]+numbers[1]+numbers[2]+numbers[3]+numbers[4]+numbers[5]
 var numNum=numbers.length;
 var averAge=sumNum/numNum;
 console.log(averAge.toFixed(2))
+
 
 // finding sign
 var x= -1;
