@@ -1,3 +1,5 @@
+console.log("===============FOR LOOP===============");
+console.log("===============FOR LOOP===============");
 //for loop | printing all the numbers of an array
 // 1 =>
 console.log('for loop practice')
@@ -6,13 +8,34 @@ for (const singleNum of num) {
     console.log(singleNum);
 }
 console.log("=============================");
+console.log('printing 1-10 using for loop')
+
+for (let num6 = 0; num6 < 10; num6++) {
+    console.log(num6);
+}
+console.log("=============================");
+console.log('printing even or odd using for loop')
+for (let num7 = 1; num7 < 20; num7=num7+2) {
+    console.log(num7);
+    
+}
+console.log("=============================");
+console.log('adding even or odd using for loop|')
+let sumNum8=0;
+for (let num8 = 0; num8 < 20; num8++) {
+    sumNum8=sumNum8+num8;
+}
+console.log('the sum is',sumNum8)
+
+console.log("=============================");
 // 2 =>
 const fruits=['orange','apple','guava','grapes','maple']
 for (const fruit of fruits){
     console.log("i want to eat", fruit);
 }
 
-console.log("=============================");
+console.log("===============WHILE LOOP===============");
+console.log("===============WHILE LOOP===============");
 
 
 // ===============WHILE LOOP=============== //
